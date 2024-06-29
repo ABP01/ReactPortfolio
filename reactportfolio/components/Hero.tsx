@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Armel, Fullstack dev .js Developer based in Togo.
+            Hi! I&apos;m Armel, Fullstack dev based in Togo.
           </p>
 
           <a href="#about">
