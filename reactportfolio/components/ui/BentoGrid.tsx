@@ -12,6 +12,12 @@ import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
 
+import dynamic from 'next/dynamic';
+
+const LottieDynamic = dynamic(() => import('react-lottie').then(mod => mod.default), {
+  ssr: false,
+});
+
 export const BentoGrid = ({
   className,
   children,
@@ -31,6 +37,9 @@ export const BentoGrid = ({
     </div>
   );
 };
+
+
+
 
 export const BentoGridItem = ({
   className,
